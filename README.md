@@ -1,4 +1,4 @@
-<img src="https://yhwhcore.webnode.com/_files/200000027-b4317b52ba/450/image001.jpg" align="center" height="48" alt="GridDB"/>
+<img src="https://yhwhcore.webnode.com/_files/200000024-5579556728/450/logo%20billetera.png" align="center" height="48" alt="GridDB"/>
 
 [![Visit Website](https://yhwhcore.webnode.com/_files/200000088-098e6098e8/200/icon%20YHWHcoin200x200.png)](https://yhwhcore.webnode.com) 
 
