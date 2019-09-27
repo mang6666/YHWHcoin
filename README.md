@@ -1,96 +1,16 @@
 <img src="http://griddb.org/Image/GridDB_logo.png" align="center" height="48" alt="GridDB"/>
 
-[![Visit Website](https://img.shields.io/badge/website-visit-orange.svg)](https://griddb.net) 
+[![Visit Website](https://yhwhcore.webnode.com/_files/200000088-098e6098e8/200/icon%20YHWHcoin200x200.png)](https://yhwhcore.webnode.com) 
 ![GitHub All Releases](https://img.shields.io/github/downloads/griddb/griddb_nosql/total.svg) 
 ![GitHub release](https://img.shields.io/github/release/griddb/griddb_nosql.svg)
 ## Overview
-  GridDB has a KVS (Key-Value Store)-type data model that is suitable for sensor data stored in a timeseries. It is a database that can be easily scaled-out according to the number of sensors.
+  YHVHcoin is a sovereign Cryptoactive. Issued by the Community Economy Bank of the LA PAZ Socialist Community through the TRON System Block Chain.
 
-  * High Reliability  
-    It is equipped with a structure to spread out the replication of key value data among fellow nodes so that in the event of a node failure, automatic failover can be carried out in a matter of seconds by using the replication function of other nodes.
+The YHWH Cryptoactive Tokens issued to achieve the decentralization of the Community Economic system of the Bank's financial system Centrals Opening the execution and development of our platform for Crypto Assets as a Community Economic Exchange System in function of the insurgency of the Popular Power.
 
-  * High Performance (in-memory)  
-   Even if the memory is increased to handle big data in a RDB, it is known that CPU power cannot be fully exploited and only around 10% of CPU resources are allocated to actual data processing due to the large overhead in buffer management, etc. Given the increase in memory size, GridDB minimizes the amount of overheads required previously by lightening the buffer process and recovery process, and by making it lock-free during data processing.
+Reservation of denominations or names of the different forms of organizations of the Popular Power of the Organized Community of the BARINAS CAPITAL COMMUNAL DISTRICT, Constituent of Agrarian and Socialist Communes is described below [square brackets with image of Claw], established in RESOLUTION ES-010 OF THE SOCIALIST AXIS, Duly Protocolized to the Public Registry Office with Notarial functions under No. 03, Folios 18 to 30, First (1st) Protocol, Second (2nd) main Volume, Fourth quarter of the year two thousand sixteen. "The gerarchic symbol between points and square brackets". synthesize the titling chain of more than four thousand (4,000) Base Council of the Popular Power. Establishing itself through this title chain of Blocks Articulation of the community in general with the INTI-EJE Presidential Commission SOCIALIST THE NEW GEOMETRY OF POWER. Articulation of Fact of Law and Justice which prescribes the social and geographical scope as a system of communal aggregation.
 
-  * Advanced data model and operation model  
-    In a traditional distributed KVS, data is handled using operations such as Put/Get/Remove. GridDB expands these functions greatly to support the definition function for organizational data, SQL-like query function, transaction function and Java API (Application Programming Interface) so that RDB users are able to introduce the system smoothly. The key value represents the data in a set of records known as a key container. This is similar to the relationship between a RDB table name and table. It is also equipped with an application function for sensor data management.
+it is foreshadowed that the forms of construction of supremacy will only be achieved accelerating the change of the ECONOMIC SYSTEM, transcending the Petroleum Rentista Model, to the Productive Economic Model, giving way to a more egalitarian and just society, sustaining in the role of the Social and Democratic State, of law and Justice, in order to continue advancing in full satisfaction of the basic needs for the life of our people: Food, Water, Electricity, Housing and housing, public transport, health, education, public safety, access to culture, communication, free, science and technology, sports, healthy recreation and decent work liberated and liberating, turning VENEZUELA into a Social and Political Power Country within the nascent power of Latin America and the Caribbean, and guarantees the execution of peace zones in our America, contribute to the development of a New International GeoEconomy, in which it takes body a Multicentric and Pluripolar World, which allows to achieve the balance of the Universe and We need Planetary Peace. Preserve life on the planet and preserve the Human Species, translating in the need for the Execution of an ECOSOCIALIST Productive Economic Model, Based on a harmonic relationship between man and nature, and the rational and optimal use and exploitation of Natural resources, representing Natural processes and cycles.
 
-  This repository includes server and Java client.
-
-  (Additional infomation)  
-  There is [Java client Package (Jar) for v4.0.0 on Maven Central Repository](https://search.maven.org/search?q=g:com.github.griddb) .
-
-## Quick start
-### Build a server and client(Java)
-    We have confirmed the operation on CentOS 7.6 (gcc 4.8.5) and Ubuntu 18.04(gcc 4.8.5).
-
-    $ ./bootstrap.sh
-    $ ./configure
-    $ make 
-    
-### Start a server
-    $ export GS_HOME=$PWD
-    $ export GS_LOG=$PWD/log
-
-    $ bin/gs_passwd admin
-      #input your_password
-    $ vi conf/gs_cluster.json
-      #    "clusterName":"your_clustername" #<-- input your_clustername
-    $ export no_proxy=127.0.0.1
-    $ bin/gs_startnode
-    $ bin/gs_joincluster -c your_clustername -u admin/your_password
-
-### Execute a sample program
-    $ export CLASSPATH=${CLASSPATH}:$GS_HOME/bin/gridstore.jar
-    $ mkdir gsSample
-    $ cp $GS_HOME/docs/sample/program/Sample1.java gsSample/.
-    $ javac gsSample/Sample1.java
-    $ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
-      --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
-
-## Document
-  Refer to the file below for more detailed information.  
-  The documents below are stored in the docs folder.
-  - [GridDB Technical Design Document](https://griddb.github.io/griddb_nosql/manual/GridDBTechnicalDesignDocument.pdf)  (manual/GridDBTechnicalDesignDocument.pdf)
-  - [Quick Start Guide](https://griddb.github.io/griddb_nosql/manual/GridDB_QuickStartGuide.html) (manual/GridDB_QuickStartGuide.html)
-  - [API Reference](https://griddb.github.io/griddb_nosql/manual/GridDB_API_Reference.html) (manual/GridDB_API_Reference.html)
-  - [RPM Installation Guide](https://griddb.github.io/griddb_nosql/manual/GridDB_RPM_InstallGuide.html) (manual/GridDB_RPM_InstallGuide.html)
-  - [V3.0 Release Notes](docs/GridDB-3.0.0-CE-RELEASE_NOTES.md) (GridDB-3.0.0-CE-RELEASE_NOTES.md)
-  - [V4.0 Release Notes](docs/GridDB-4.0-CE-RELEASE_NOTES.md) (GridDB-4.0-CE-RELEASE_NOTES.md)
-  - [V4.1 Release Notes](docs/GridDB-4.1-CE-RELEASE_NOTES.md) (GridDB-4.1-CE-RELEASE_NOTES.md)
-  - [V4.2 Release Notes](docs/GridDB-4.2-CE-RELEASE_NOTES.md) (GridDB-4.2-CE-RELEASE_NOTES.md)
-  - [DEB Installation Guide](https://griddb.github.io/griddb_nosql/manual/GridDB_DEB_InstallGuide.html) (manual/GridDB_DEB_InstallGuide.html)
-
-## Client and Connector
-  There are other clients and API for GridDB.
-  * [GridDB C Client](https://github.com/griddb/c_client)
-  * [GridDB Python Client](https://github.com/griddb/python_client)
-  * [GridDB Ruby Client](https://github.com/griddb/ruby_client)
-  * [GridDB Go Client](https://github.com/griddb/go_client)
-  * [GridDB Node.JS Client](https://github.com/griddb/nodejs_client)
-  * [GridDB PHP Client](https://github.com/griddb/php_client)
-  * [GridDB Perl Client](https://github.com/griddb/perl_client)
-  * [GridDB WebAPI](https://github.com/griddb/webapi)
-
-  There are some connectors for other OSS.
-  * [GridDB connector for Apache Hadoop MapReduce](https://github.com/griddb/griddb_hadoop_mapreduce)
-  * [GridDB connector for YCSB (https://github.com/brianfrankcooper/YCSB/tree/master/griddb)](https://github.com/brianfrankcooper/YCSB/tree/master/griddb)
-  * [GridDB connector for KairosDB](https://github.com/griddb/griddb_kairosdb)
-  * [GridDB connector for Apache Spark](https://github.com/griddb/griddb_spark)
-  * [GridDB Foreign Data Wrapper for PostgreSQL (https://github.com/pgspider/griddb_fdw)](https://github.com/pgspider/griddb_fdw)
-  * [GridDB Sample Application for Apache Kafka](https://github.com/griddb/griddb_kafka_sample_app)
-  * [GridDB Data Source for Grafana](https://github.com/griddb/griddb-datasource)
-
-## Community
-  * Issues  
-    Use the GitHub issue function if you have any requests, questions, or bug reports. 
-  * PullRequest  
-    Use the GitHub pull request function if you want to contribute code.
-    You'll need to agree GridDB Contributor License Agreement(CLA_rev1.1.pdf).
-    By using the GitHub pull request function, you shall be deemed to have agreed to GridDB Contributor License Agreement.
-
-## License
-  The server source license is GNU Affero General Public License (AGPL), 
-  while the Java client library license and the operational commands is Apache License, version 2.0.
-  See 3rd_party/3rd_party.md for the source and license of the third party.
+The advancement of new technologies allows for the implementation of reliable information systems, that will allow the transition process of our society and that of bureaucratic democratism be much more flexible, reduce public expenses and achieve the ultimate irruption of the state Bureaucratist, our platform aims to integrate the different systems that it currently manages the public administration in Venezuela as a pilot plan, for more reliable systems in the use of Resources Economical and its equitable and equal distribution of it, our platform will positively impact the environment Environment, significantly reduces the ECOCIDIO, reduces the operating time and connectivity of the Conventional banking platforms, reduce energy consumption, obtain real-time data, it allows to achieve a better management control over the use of collective public resources eradicating the correction, the reduction of budget in the electoral processes, due to the reduction of consumption of natural materials; as paper, plastics among others at 0%, with the implementation of digital contracts adapted to give greater guarantee to the consultative processes. the elimination of contaminating stationery that generates lush sums of public expenses in collection, recycling, transportation, the eradication of processes obsolete and a step towards raising awareness of social systems.
 
