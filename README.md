@@ -1,8 +1,8 @@
-<img src="http://griddb.org/Image/GridDB_logo.png" align="center" height="48" alt="GridDB"/>
+<img src="https://yhwhcore.webnode.com/_files/200000088-098e6098e8/200/icon%20YHWHcoin200x200.png" align="center" height="48" alt="GridDB"/>
 
 [![Visit Website](https://yhwhcore.webnode.com/_files/200000088-098e6098e8/200/icon%20YHWHcoin200x200.png)](https://yhwhcore.webnode.com) 
-![GitHub All Releases](https://img.shields.io/github/downloads/griddb/griddb_nosql/total.svg) 
-![GitHub release](https://img.shields.io/github/release/griddb/griddb_nosql.svg)
+![GitHub All Releases](https://github.com/YHWHcore/YHWHcoin) 
+![GitHub release](https://github.com/YHWHcore)
 ## Overview
   YHVHcoin is a sovereign Cryptoactive. Issued by the Community Economy Bank of the LA PAZ Socialist Community through the TRON System Block Chain.
 
